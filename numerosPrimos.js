@@ -30,7 +30,7 @@ console.log(primos(resultadoNumerosPrimos));
 function contarNumerosPrimos(limite) {
   let quantidade = 0;
 
-  for (i = 2; i <= limite; i++) {
+  for (let i = 2; i <= limite; i++) {
     if (numerosPrimos(i)) {
       quantidade++;
     }
